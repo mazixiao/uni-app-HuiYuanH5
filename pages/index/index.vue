@@ -1,5 +1,6 @@
 <template>
 	<view class="content">
+		<img class="logo22" :src="url" alt="">
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
@@ -33,7 +34,8 @@
 		},
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello',
+				url: '',
 			}
 		},
 		onLoad() {
@@ -41,10 +43,12 @@
 
 			EntryPage().then((response) => {
 				console.log(response.data, "EntryPage");
-				return;
+			
 				if (response.data.ReturnCode == 0) {
 					if (response.data.Data) {
-						this.src = response.data.Data[0].enteranimation;
+						this.url = response.data.Data[0].enteranimation;
+						// Data[0].enteranimation
+							return;
 						if (response.data.Data[0].type == 1) {
 							this.type = 1;
 						} else if (response.data.Data[0].type == 2) {

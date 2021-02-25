@@ -73,6 +73,6 @@
         "router" : {
             "mode" : "hash"
         },
-        "title" : "问卷调查"
+        "title" : "惠元官网"
     }
 }

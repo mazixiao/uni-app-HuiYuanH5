@@ -14,4 +14,7 @@
 
 <style>
 	/*每个页面公共css */
+	img {
+		max-width: 100%;
+	}
 </style>

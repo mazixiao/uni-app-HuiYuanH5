@@ -11,8 +11,10 @@ import Vant from 'vant';
 import 'vant/lib/index.less';
 
 Vue.use(Vant);
-
-
+// 1366设计稿适配iPad
+import rem from '@/assets/js/rem'
+// 1366设计稿适配iPad
+rem.getSize()
 
 // ajax
 import axios from 'axios'

@@ -17,4 +17,21 @@
 	img {
 		max-width: 100%;
 	}
+	::-webkit-scrollbar {
+	  display: none; 
+	}
+	* {
+	  box-sizing: border-box;
+	  margin: 0;
+	  padding: 0;
+	  font-family: "TC", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "冬青黑体", "Microsoft YaHei", "微软雅黑", Helvetica, Arial, sans-serif !important;
+	}
+	
+	.bangxin {
+	  max-width: 14.4rem;
+	  margin: 0 auto;
+	  /* background-color: green !important; */
+	}
+	
+	
 </style>

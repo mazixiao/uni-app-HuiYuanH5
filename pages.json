@@ -3,13 +3,13 @@
 		{
 			"path": "pages/enter/enter",
 			"style": {
-				"navigationBarTitleText": "进入页"
+				"navigationBarTitleText": "进入页(uni-app)"
 			}
 		},
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "首页"
+				"navigationBarTitleText": "首页(uni-app)"
 			}
 		}
 	],

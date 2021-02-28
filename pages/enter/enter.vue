@@ -14,13 +14,16 @@
 	</view> -->
 
 	<div class="enter">
-		<router-link to="/index#a1">
+		<navigator class="goIndex1" url="../index/index">
 			<div v-if="type == 1" class="bg-img" :style="`background-image: url(${src});`"></div>
 			<video v-if="type == 2" class="bg-video" :src="src" autoplay="autoplay" loop="loop" muted="muted"></video>
-		</router-link>
-		<router-link class="goIndex" to="../index/index">
+		</navigator>
+		
+		<!-- <navigator :url="'/pages/test/test?item='+ encodeURIComponent(JSON.stringify(item))"></navigator> -->
+		
+		<navigator class="goIndex" url="../index/index">
 			Enter
-		</router-link>
+		</navigator>
 		<div class="footer-bottom">
 			<div class="copyright">
 				全国服务热线<span class="tel">021-61183567</span>惠元医院拥有本网站所有内容的最终解释权 ©Copyright 2020 xingfuhuiyuan. All rights reserved.
